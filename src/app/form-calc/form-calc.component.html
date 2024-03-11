@@ -1,7 +1,9 @@
 <div class="container">
 
   <form>
-    <h1>— CALCULADORA —</h1>
+    <div class="preenchimento">
+      <h1>CALCULADORA</h1>
+    </div>
     <h3>Selecione a operação:</h3>
     <select name="operacao" id="operacao" [(ngModel)]="operacao">
       <option value="soma">Soma</option>
@@ -16,7 +18,10 @@
     <h3>Segundo número:</h3>
     <input type= "number" [(ngModel)]="num2" name="num2">
     <button (click)="onClick()">Calcular</button>
-    <h3>Resultado: {{result}}</h3>
+    <div class="preenchimento">
+      <h3>Resultado: {{result}}</h3>
+    </div>
+
   </form>
 
 

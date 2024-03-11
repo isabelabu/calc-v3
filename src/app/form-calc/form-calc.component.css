@@ -17,11 +17,24 @@ form{
   padding: 3rem;
   border-radius: 1rem;
   margin: 4rem;
+  border: 6px solid #1d1d1d;
 }
 
-form select, input, button,option{
+select, input, button,option{
   display: block;
   margin-bottom: 10px;
-  color: #303030;
+  color: #1d1d1d;
   border-radius: 1rem;
+}
+
+.preenchimento{
+  background-color: #8f8f8f;
+  padding: 0.1rem 3rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  border: 6px solid #1d1d1d;
+}
+
+.preenchimento h1, .preenchimento h3{
+  color: #303030;
 }
