@@ -10,6 +10,23 @@ export class FormCalcComponent {
   num1: number = 0;
   num2: number = 0;
   result: number = 0;
+  sinal: string = "";
+
+  select(){
+    if(this.operacao == "soma"){
+      this.sinal = "+";
+    } else if(this.operacao == "subtracao"){
+      this.sinal = "-";
+    } else if(this.operacao == "multiplicacao"){
+      this.sinal = "x";
+    } else if(this.operacao == "divisao"){
+      this.sinal = "/";
+    } else if(this.operacao == "modulo"){
+      this.sinal = "%";
+    } else if(this.operacao == "potencia"){
+      this.sinal = "^";
+    }
+  }
 
   onClick(){
     if(this.operacao == "soma"){
