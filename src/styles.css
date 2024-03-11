@@ -8,6 +8,6 @@ html {
     var(--g1),var(--g2) calc(2*var(--s)) 0,
     var(--g2) calc(3*var(--s)) var(--s),
     var(--g1) var(--s) var(--s) #2c2e2a;
-  background-size: calc(4*var(--s)) calc(2*var(--s));
+    background-size: calc(4*var(--s)) calc(2*var(--s));
 }
 
