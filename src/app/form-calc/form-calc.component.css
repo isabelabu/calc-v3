@@ -2,7 +2,7 @@
 
 *{
   font-family: "Pixelify Sans", sans-serif;
-  color: #e6e6e6;
+  color: #7469B6;
   font-weight: 2;
 }
 
@@ -13,11 +13,12 @@
 }
 
 form{
-  background-color: #303030;
+  box-shadow: 5px 8px;
+  background-color: #E1AFD1;
   padding: 3rem;
   border-radius: 1rem;
   margin: 4rem;
-  border: 6px solid #1d1d1d;
+  border: 2.5px solid #ac7e9d;
   transform:
   perspective(800px)
   rotateY(0deg) scale(0.9);
@@ -39,10 +40,11 @@ form{
 select, input, button,option{
   display: block;
   margin-bottom: 10px;
-  color: #1d1d1d;
+  color: #7469B6;
   border-radius: 1rem;
   padding: 0.5rem;
   font-size: large;
+  border: 1px solid #7469B6;
 }
 
 select, button, option{
@@ -58,13 +60,13 @@ button{
 }
 
 .preenchimento{
-  background-color: #8f8f8f;
+  background-color: #7469B6;
   padding: 0.1rem 3rem;
   margin-top: 0.5rem;
   border-radius: 1rem;
-  border: 6px solid #1d1d1d;
+  border: 3px solid #5b528b;
 }
 
 .preenchimento h1, .preenchimento h3{
-  color: #303030;
+  color: #e9e6ff;
 }
