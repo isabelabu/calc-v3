@@ -43,4 +43,12 @@ export class FormCalcComponent {
       this.result = Math.pow(this.num1, this.num2);
     }
   }
+
+  limpar(){
+    this.operacao = "";
+    this.num1 = 0;
+    this.num2 = 0;
+    this.sinal = "";
+    this.result = 0;
+  }
 }
